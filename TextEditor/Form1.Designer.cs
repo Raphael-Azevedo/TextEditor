@@ -41,8 +41,6 @@
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copiarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.desfazerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.refazerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formatarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.negritoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.italicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -149,14 +147,13 @@
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // editarToolStripMenuItem
             // 
             this.editarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.copiarToolStripMenuItem,
-            this.colarToolStripMenuItem,
-            this.desfazerToolStripMenuItem,
-            this.refazerToolStripMenuItem});
+            this.colarToolStripMenuItem});
             this.editarToolStripMenuItem.Name = "editarToolStripMenuItem";
             this.editarToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.editarToolStripMenuItem.Text = "Editar";
@@ -164,28 +161,16 @@
             // copiarToolStripMenuItem
             // 
             this.copiarToolStripMenuItem.Name = "copiarToolStripMenuItem";
-            this.copiarToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.copiarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.copiarToolStripMenuItem.Text = "Copiar";
             this.copiarToolStripMenuItem.Click += new System.EventHandler(this.copiarToolStripMenuItem_Click);
             // 
             // colarToolStripMenuItem
             // 
             this.colarToolStripMenuItem.Name = "colarToolStripMenuItem";
-            this.colarToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.colarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.colarToolStripMenuItem.Text = "Colar";
             this.colarToolStripMenuItem.Click += new System.EventHandler(this.colarToolStripMenuItem_Click);
-            // 
-            // desfazerToolStripMenuItem
-            // 
-            this.desfazerToolStripMenuItem.Name = "desfazerToolStripMenuItem";
-            this.desfazerToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
-            this.desfazerToolStripMenuItem.Text = "Desfazer";
-            // 
-            // refazerToolStripMenuItem
-            // 
-            this.refazerToolStripMenuItem.Name = "refazerToolStripMenuItem";
-            this.refazerToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
-            this.refazerToolStripMenuItem.Text = "Refazer";
             // 
             // formatarToolStripMenuItem
             // 
@@ -201,21 +186,21 @@
             // negritoToolStripMenuItem
             // 
             this.negritoToolStripMenuItem.Name = "negritoToolStripMenuItem";
-            this.negritoToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.negritoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.negritoToolStripMenuItem.Text = "Negrito";
             this.negritoToolStripMenuItem.Click += new System.EventHandler(this.negritoToolStripMenuItem_Click);
             // 
             // italicoToolStripMenuItem
             // 
             this.italicoToolStripMenuItem.Name = "italicoToolStripMenuItem";
-            this.italicoToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.italicoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.italicoToolStripMenuItem.Text = "Itálico";
             this.italicoToolStripMenuItem.Click += new System.EventHandler(this.italicoToolStripMenuItem_Click);
             // 
             // sublinhadoToolStripMenuItem
             // 
             this.sublinhadoToolStripMenuItem.Name = "sublinhadoToolStripMenuItem";
-            this.sublinhadoToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.sublinhadoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sublinhadoToolStripMenuItem.Text = "Sublinhado";
             this.sublinhadoToolStripMenuItem.Click += new System.EventHandler(this.sublinhadoToolStripMenuItem_Click);
             // 
@@ -226,7 +211,7 @@
             this.esquerdaToolStripMenuItem,
             this.direitaToolStripMenuItem});
             this.alinhamentoToolStripMenuItem.Name = "alinhamentoToolStripMenuItem";
-            this.alinhamentoToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.alinhamentoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.alinhamentoToolStripMenuItem.Text = "Alinhamento";
             // 
             // centralizarToolStripMenuItem
@@ -478,8 +463,6 @@
         private System.Windows.Forms.ToolStripMenuItem editarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem copiarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem colarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem desfazerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem refazerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formatarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem negritoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem italicoToolStripMenuItem;

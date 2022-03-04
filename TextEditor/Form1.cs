@@ -337,5 +337,10 @@ namespace TextEditor
         {
             Imprimir();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
