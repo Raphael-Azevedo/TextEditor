@@ -60,7 +60,6 @@
             this.Btn_negrito = new System.Windows.Forms.ToolStripButton();
             this.Btn_italico = new System.Windows.Forms.ToolStripButton();
             this.Btn_sublinhado = new System.Windows.Forms.ToolStripButton();
-            this.Btn_fonte = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.Btn_esquerda = new System.Windows.Forms.ToolStripButton();
             this.Btn_centro = new System.Windows.Forms.ToolStripButton();
@@ -248,7 +247,6 @@
             this.Btn_negrito,
             this.Btn_italico,
             this.Btn_sublinhado,
-            this.Btn_fonte,
             this.toolStripSeparator3,
             this.Btn_esquerda,
             this.Btn_centro,
@@ -350,15 +348,6 @@
             this.Btn_sublinhado.Size = new System.Drawing.Size(23, 22);
             this.Btn_sublinhado.Text = "Sublinhado";
             this.Btn_sublinhado.Click += new System.EventHandler(this.Btn_sublinhado_Click);
-            // 
-            // Btn_fonte
-            // 
-            this.Btn_fonte.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.Btn_fonte.Image = global::TextEditor.Properties.Resources.Fonte;
-            this.Btn_fonte.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.Btn_fonte.Name = "Btn_fonte";
-            this.Btn_fonte.Size = new System.Drawing.Size(23, 22);
-            this.Btn_fonte.Text = "Fonte";
             // 
             // toolStripSeparator3
             // 
@@ -482,7 +471,6 @@
         private System.Windows.Forms.ToolStripButton Btn_negrito;
         private System.Windows.Forms.ToolStripButton Btn_italico;
         private System.Windows.Forms.ToolStripButton Btn_sublinhado;
-        private System.Windows.Forms.ToolStripButton Btn_fonte;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripButton Btn_esquerda;
         private System.Windows.Forms.ToolStripButton Btn_centro;
